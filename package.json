@@ -1,0 +1,39 @@
+{
+	"name": "ffprobe-binaries",
+	"version": "0.0.1",
+	"description": "Universal FFprobe static binaries",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"bin",
+		"dist"
+	],
+	"scripts": {
+		"del": "del dist node_modules",
+		"prepublishOnly": "del dist; tsc",
+		"test": "node dist/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^12.6.8",
+		"del-cli": "^2.0.0",
+		"nodemon": "^1.19.1",
+		"typescript": "^3.5.3"
+	},
+	"keywords": [
+		"ffprobe",
+		"ffmpeg",
+		"universal",
+		"static",
+		"binaries",
+		"path",
+		"win",
+		"osx",
+		"darwin",
+		"linux"
+	],
+	"license": "MIT",
+	"author": "Robert Laverty <roblav96@gmail.com> (https://github.com/roblav96)",
+	"homepage": "https://github.com/roblav96/dts-generate#readme",
+	"repository": "github:roblav96/dts-generate",
+	"bugs": "https://github.com/roblav96/dts-generate/issues"
+}
