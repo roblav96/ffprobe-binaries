@@ -1,6 +1,6 @@
 {
 	"name": "ffprobe-binaries",
-	"version": "0.0.1",
+	"version": "4.1.2",
 	"description": "Universal FFprobe static binaries",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -33,7 +33,7 @@
 	],
 	"license": "MIT",
 	"author": "Robert Laverty <roblav96@gmail.com> (https://github.com/roblav96)",
-	"homepage": "https://github.com/roblav96/dts-generate#readme",
-	"repository": "github:roblav96/dts-generate",
-	"bugs": "https://github.com/roblav96/dts-generate/issues"
+	"homepage": "https://github.com/roblav96/ffprobe-binaries#readme",
+	"repository": "github:roblav96/ffprobe-binaries",
+	"bugs": "https://github.com/roblav96/ffprobe-binaries/issues"
 }
