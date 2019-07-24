@@ -5,7 +5,7 @@ import * as path from 'path'
 let platform = os.platform()
 let arch = os.arch()
 
-let ffpath = path.join(__dirname, 'bin', platform, arch, 'ffprobe')
+let ffpath = path.join(path.dirname(__dirname), 'bin', platform, arch, 'ffprobe')
 if (platform == 'win32') {
 	ffpath += '.exe'
 }
