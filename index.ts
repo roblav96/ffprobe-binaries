@@ -10,7 +10,7 @@ if (platform == 'win32') {
 	ffpath += '.exe'
 }
 
-if (fs.existsSync(ffpath)) {
+if (!fs.existsSync(ffpath)) {
 	console.error(`Unsupported os -> '${platform}' '${arch}'`)
 	process.exit(1)
 }
