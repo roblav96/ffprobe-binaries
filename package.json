@@ -1,6 +1,6 @@
 {
 	"name": "ffprobe-binaries",
-	"version": "4.2.1",
+	"version": "4.2.2",
 	"description": "Universal FFprobe static binaries",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
