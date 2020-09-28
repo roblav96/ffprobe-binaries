@@ -1,6 +1,6 @@
 {
 	"name": "ffprobe-binaries",
-	"version": "4.2.2",
+	"version": "4.3.1",
 	"description": "Universal FFprobe static binaries",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
 	],
 	"scripts": {
 		"del": "del dist node_modules",
-		"prepublishOnly": "del dist; tsc",
+		"prepublishOnly": "del dist; tsc --declaration",
 		"test": "node dist/index.js"
 	},
 	"devDependencies": {
